@@ -13,14 +13,14 @@ export default function CTASection() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <Link 
+          <Link
             href="/write-story"
             className="bg-white text-emerald-400 hover:bg-gray-100 text-2xl md:text-3xl font-bold px-16 py-6 rounded-full shadow-2xl transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-white"
           >
             Start Writing Now
           </Link>
 
-          <Link 
+          <Link
             href="/explore"
             className="bg-transparent border-4 border-white text-white hover:bg-white hover:text-emerald-400 text-2xl md:text-3xl font-bold px-16 py-6 rounded-full shadow-2xl transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-white"
           >

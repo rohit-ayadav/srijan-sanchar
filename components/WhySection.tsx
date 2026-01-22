@@ -3,7 +3,7 @@ export default function WhySection() {
   return (
     <section className="py-24 px-6 bg-white" id="why">
       <div className="max-w-6xl mx-auto">
-        
+
         {/* Hero Message */}
         <div className="text-center mb-20">
           <h2 className="text-6xl md:text-8xl font-bold text-gray-900 mb-8">
@@ -40,7 +40,7 @@ export default function WhySection() {
           <p className="text-xl text-gray-600 mb-10">
             No rules. No judgment. Just you.
           </p>
-          
+
           <div className="grid sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
             <div className="bg-gray-50 p-10 rounded-2xl">
               <div className="text-6xl mb-4">✍️</div>
@@ -49,7 +49,7 @@ export default function WhySection() {
                 Type it out. Take your time. Edit as you go.
               </p>
             </div>
-            
+
             <div className="bg-gray-50 p-10 rounded-2xl">
               <div className="text-6xl mb-4">🎙️</div>
               <h4 className="text-2xl font-bold text-gray-900 mb-3">Speak</h4>
@@ -61,7 +61,7 @@ export default function WhySection() {
         </div>
         {/* Final CTA */}
         <div className="mt-20 text-center">
-          <a 
+          <a
             href="/write"
             className="inline-block bg-emerald-300 hover:bg-emerald-400 text-white text-2xl font-bold px-16 py-6 rounded-2xl shadow-xl hover:shadow-2xl transition-all"
           >

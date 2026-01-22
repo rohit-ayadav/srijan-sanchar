@@ -42,7 +42,7 @@ export default function WhatSection() {
   return (
     <section className="py-24 px-6 bg-gray-50" id="what">
       <div className="max-w-6xl mx-auto">
-        
+
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
@@ -51,7 +51,7 @@ export default function WhatSection() {
           <p className="text-2xl text-gray-700 mb-10 max-w-3xl mx-auto">
             Stories that feel like they were written just for you
           </p>
-          
+
           <div className="flex flex-wrap justify-center gap-3">
             <span className="px-5 py-2 bg-white text-gray-700 rounded-lg font-medium border border-gray-300">
               Browse by Feeling
@@ -68,7 +68,7 @@ export default function WhatSection() {
         {/* Categories */}
         <div className="space-y-5">
           {categories.map((category, index) => (
-            <div 
+            <div
               key={index}
               className="bg-white p-8 rounded-xl border-l-4 border-gray-900 hover:shadow-lg transition-shadow"
             >
@@ -87,7 +87,7 @@ export default function WhatSection() {
 
         {/* CTA */}
         <div className="mt-16 text-center">
-          <a 
+          <a
             href="/explore"
             className="inline-block bg-gray-900 hover:bg-gray-800 text-white text-xl font-bold px-12 py-4 rounded-lg transition-colors"
           >

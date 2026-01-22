@@ -21,9 +21,9 @@ export default function HowSection() {
     },
     {
       number: "4",
-      title: "Read Other Stories",
+      title: "Plan Your Storytelling",
       description:
-        "Go to ‘Read Stories’ and choose any story that interests you. Just click the title to open it."
+        "Plan your story telling with help of effect oriented communication model."
     }
   ];
 
@@ -45,7 +45,7 @@ export default function HowSection() {
             How Does It Work?
           </h2>
           <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-            Made for parents, grandparents, and anyone who is not comfortable with phones. 
+            Made for parents, grandparents, and anyone who is not comfortable with phones.
             Just follow these simple steps.
           </p>
         </div>
@@ -79,7 +79,7 @@ export default function HowSection() {
               Become an Alchemist of Stories
             </h3>
             <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-              Once you are comfortable writing or speaking your stories, you can go deeper: explore, 
+              Once you are comfortable writing or speaking your stories, you can go deeper: explore,
               polish, and transform your stories into something even more meaningful.
             </p>
           </div>

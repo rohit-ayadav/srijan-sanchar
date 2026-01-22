@@ -5,10 +5,10 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-12 px-6">
       <div className="max-w-6xl mx-auto">
-        
+
         {/* Main content */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-8">
-          
+
           {/* Brand */}
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold text-emerald-300 mb-2">Story Portal</h3>
